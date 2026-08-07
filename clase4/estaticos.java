@@ -29,7 +29,9 @@ public class estaticos {
         Persona p1 = new Persona();
         Persona p2 = new Persona();
 
+        Persona.saludar();
         System.out.println(Persona.contador);
+        // System.out.println(Calculadora.sumar(1, 2));
 
     }
 

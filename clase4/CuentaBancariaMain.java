@@ -50,6 +50,8 @@ public class CuentaBancariaMain {
         cuenta.depositar(200);
         cuenta.retirar(50);
 
+        // cuenta.saldo = 1000;
+
         double s = cuenta.getSaldo();
 
         System.out.println(s);
